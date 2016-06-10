@@ -1,0 +1,7 @@
+﻿<title>{{ model["title"] }}</title>
+<h2>Welcome to Jinja2 in ASP.MVC!</h2>
+<ul>
+{% for msg in model["messages"] %}
+  <li>{{ msg.Text }}</li>
+{% endfor %}
+</ul>
